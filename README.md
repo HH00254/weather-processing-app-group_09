@@ -38,18 +38,19 @@ Expand the Project Introduction to include a detailed description of what the pr
 
 
 ### Pylint Result
-************* Module db_operations
-db_operations.py:139:0: C0301: Line too long (107/100) (line-too-long)
-db_operations.py:165:32: C0303: Trailing whitespace (trailing-whitespace)
-db_operations.py:241:0: C0304: Final newline missing (missing-final-newline)
+************* Module plot_operations
+plot_operations.py:71:54: C0303: Trailing whitespace (trailing-whitespace)
+plot_operations.py:10:0: E0401: Unable to import 'matplotlib.pyplot' (import-error)
 ************* Module scrape_weather
 scrape_weather.py:11:0: E0401: Unable to import 'lxml' (import-error)
 scrape_weather.py:12:0: E0401: Unable to import 'dateutil.relativedelta' (import-error)
 scrape_weather.py:13:0: E0401: Unable to import 'requests' (import-error)
 scrape_weather.py:218:4: R0914: Too many local variables (16/15) (too-many-locals)
-************* Module plot_operations
-plot_operations.py:10:0: E0401: Unable to import 'matplotlib.pyplot' (import-error)
+************* Module db_operations
+db_operations.py:139:0: C0301: Line too long (107/100) (line-too-long)
+db_operations.py:165:32: C0303: Trailing whitespace (trailing-whitespace)
+db_operations.py:241:0: C0304: Final newline missing (missing-final-newline)
 
 -----------------------------------
-Your code has been rated at 9.42/10
+Your code has been rated at 9.40/10
 
