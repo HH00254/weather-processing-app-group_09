@@ -100,7 +100,7 @@ class ProdUtil():
             if trace_body:
                 _, _, method_name, _ = trace_body[-1]
 
-            logger.error('\nError: %s\nFunction Name: %s\nData Corruption:\n%s\n\n', \
+            logger.error('\nError: %s\nFunction Name: %s\nData Corruption:\n%s\n\n', 
                             exception, method_name,data_entre)
 
 
