@@ -68,7 +68,7 @@ class PlotOperations:
         """
         try:
             monthly_weather_data = (
-                [data for data in self.weather_data if \
+                [data for data in self.weather_data if 
                  str(data[0]).startswith(f"{year}-{month:02}")])
 
             # Create a list to store mean temperatures for each day of the selected month
