@@ -14,7 +14,7 @@ import requests
 from prod_util import ProdUtil
 
 class ScrapeWeather:
-    """ 
+    """
     Summary:
     - A Weather scraper class that work on https://climate.weather.gc.ca
     """
@@ -280,5 +280,7 @@ class ScrapeWeather:
 
             # Decrementing the time frame.
             working_date -= relativedelta(months=1)
+            month_counter += 1
+            #sm
 
         return tree_pages
